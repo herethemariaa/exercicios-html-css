@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav #hermes{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black !important;
+}
+nav .nav-link{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+main .subtitulo h4{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+main .line{
+    position: relative;
+    top: 120px;
+    left: 200px;
+    color: rgb(76, 122, 76);
+    width: 250px;
+
+}
+main .titulo h2{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}   
+img {
+    position: relative;
+    max-width: 100%; /* Mantém a responsividade */
+    width: 450px; /* Largura definida para a imagem */
+    border-radius: 10%; /* Aumenta o arredondamento para bordas mais visíveis */
+    left: 1450px; /* Centraliza horizontalmente a imagem */
+    transform: translateX(-50%); /* Corrige o posicionamento centralizado */
+    top: -80px; /* Margem superior ajustada */
+}
+.dados{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    background-color: #C9B293; /* Cor de fundo do formulário */
+    border-radius: 10px; /* Arredondamento dos cantos */
+    padding: 20px; /* Espaçamento interno */
+    width: 100%; /* Largura total do contêiner */
+    max-width: 1000px; /* Largura máxima opcional para não exceder muito em telas grandes */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar o formulário */
+}
+
+button{
+    position: relative;
+    top: 50px;
+    left: 1250px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #7fff4c;
+    font-weight: bold;
+    font-family:'IBM Plex Sans Hebrew', sans-serif;
+}
+.destaque{
+    color: rgb(65, 139, 75);
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}
+.login{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border:#000000;
+    border-style:solid;
+    font-family:'IBM Plex Sans Hebrew', sans-serif;
+    top: 10px;
+}
+.Cadastre-se{
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: bold;
+        border: #000000;
+        border-style:solid;
+        font-family:'IBM Plex Sans Hebrew', sans-serif;
+        top: 10px;
+    }

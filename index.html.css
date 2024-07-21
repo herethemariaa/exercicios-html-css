@@ -16,6 +16,9 @@
             margin: 0;
             box-sizing: border-box;
         }
+        nav{
+            background-color: #f2f3f2
+        }
 
         .nav #hermes{
             color: black;
@@ -26,6 +29,10 @@
             color: black;
             font-family: "IBM Plex Sans Hebrew", sans-serif;
         } 
+        .destaque{
+            color: #2D8347;
+            font-weight: 800;
+        }
         .slogan h3{
             font-family: "IBM Plex Mono", monospace;
             width: 450px;
@@ -40,6 +47,7 @@
             max-width: 1325px;
             min-width: 320px;
             margin: auto;
+            background-color: #f2f3f2;
 
         }
         .teste{

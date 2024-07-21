@@ -1,56 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hermes Web Services | Início</title>
-    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermes Web Services | Cadastro</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+       
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav #hermes{
+            color: black;
+            font-family: "IBM Plex Sans Hebrew", sans-serif;
+            font-weight: 700;
+        }
+        .nav #informaçoes{
+            color: black;
+            font-family: "IBM Plex Sans Hebrew", sans-serif;
+        } 
+        .slogan h3{
+            font-family: "IBM Plex Mono", monospace;
+            width: 450px;
+            margin-left: 45px;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 1325px;
+            min-width: 320px;
+            margin: auto;
+
+        }
+        .teste{
+            position: absolute;
+            top: 0;
+        }
+        main{
+            display: flex;
+            gap: 10rem;
+        }
+        #teste{
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            background-color: burlywood;
+            border-radius: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            width: 350px;
+            height: 500px;
+            padding: 2rem;
+        }
+
+        .form input{
+            border: none;
+            padding: 0.4rem;
+            border-radius: 5px;
+            width: 80%;
+            box-shadow: 1px 3px 5px black;
+        }
+
+        #first{
+            width: 400px;
+            margin: 50px;
+        }
+
+        .form button{
+            border: none;
+            background-color: #2D8347;
+            color: white;
+            width: 60%;
+            padding: 0.6rem;
+            border-radius: 5px;
+            font-family: "IBM Plex Mono", monospace;
+            font-weight:  bold;
+            margin-top: 30px;
+        }
+        footer{
+            background-color: #2D8347;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5%;
+    }
+
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <a class="nav-link active" aria-current="page" href="#" id="hermes">HERMES</a>
-            <a class="nav-link" href="#">Serviços</a>
-            <a class="nav-link" href="#">Sobre</a>
-            <a class="nav-link" href="#">Suporte</a>
-            <a class="nav-link" href="#">Contatos</a>
-            <br>
-            <div class="registro">
-            <button class="login">Log in</button>
-            <button class="Cadastre-se">Cadastre-se</button>
+
+    <nav class="container nav teste">
+        <a class="nav-link active" aria-current="page" href="#" id="hermes">HERMES</a>
+        <a class="nav-link active" aria-current="page" href="#" class="nav" id="informaçoes">Serviços</a>
+        <a class="nav-link active" aria-current="page" href="#" class="nav" id="informaçoes">Sobre</a>
+        <a class="nav-link active" aria-current="page" href="#" class="nav" id="informaçoes">Suporte</a>
+        <a class="nav-link active" aria-current="page" href="#" class="nav" id="informaçoes">Contatos</a>
+      </nav>
+      <main>
+        <div class="slogan container" id="teste">
+            <h3 id="first" class="destaque">Complete o seu cadastro</h3>
+            <h3 class="frase">para ter acesso a <br> nossa vitrine de serviços.</h3>
+        </div>
+        <form action="#" class="form">
+            <input type="text" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu email" id="">
+            <input type="tel" name="tel" placeholder="Seu telefone" id="">
+            <input type="password" name="senha" placeholder="Sua senha">
+            <button type="submit">Enviar</button>
+        </form> 
+      </main>
+      <footer>
+        <div class="card text-center">
             </div>
-        </nav>
-    </header> 
-        <main>
-            <div class="subtitulo">
-                <h4>Solicite serviços <br> freelancers ou apresente <br>os seus próprios produtos.</h4>
-                <br>
-                <br>
-                <br>
+            <div class="card-body">
+              <h5 class="card-title">© 2024 todos os direitos reservados</h5>
             </div>
-            <hr class="line">  
-            <div class="titulo">
-                <h2>CADASTRE-SE E TENHA <br>ACESSO AOS MELHORES <br></h2>
-                <div class="destaque">SERVIÇOS FREELANCERS DIGITAIS!</div>
-            </div>
-        </main>
-            <div class="img">
-                <img src="hermes hero section.jpg" class="logo" id="position">
-            </div>
-        <footer>
-            <div class="form">
-                <div class="button">
-                    <button type="submit">ACESSE DE GRAÇA!</button>
-                </div>
-            </div>
-            <div class="form">
-                <form>
-                    <div class="dados">
-                        <input type="email" name="email" class="email" placeholder="   Seu email">
-                        <input type="text" name="nome" class="nome" placeholder="Nome Completo">
-                    </div>
-                </form>
-            </div>
-        </footer>
+          </div>
+      </footer>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</body>
 </html>
